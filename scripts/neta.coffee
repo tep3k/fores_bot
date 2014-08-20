@@ -108,6 +108,6 @@ module.exports = (robot) ->
   robot.respond /OCHITUKE$/i, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120712/15/1022545/54/579x345x0e485c4fdddaa57aaee5502d.jpg"
 
-  robot.respond /BOKUNONAMAE$/i, (msg) ->
+  robot.respond /WHO ARE YOU$/i, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20130131/15/1022545/1/246x434x7b29d4d3a0eeab3641d961f1.jpg"
 
