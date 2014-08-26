@@ -27,7 +27,7 @@ module.exports = (robot) ->
     msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/3/d/3da1e0e7.gif"
 
   robot.respond /申し訳$/, (msg) ->
-    msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/6/9/692ab57e.gif"
+    msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/b/0/b0ba0f2a.gif"
 
   robot.respond /休む$/, (msg) ->
     msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/3/7/37cd9209.gif"
@@ -38,7 +38,7 @@ module.exports = (robot) ->
   robot.respond /俺は土下座$/, (msg) ->
     msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/6/2/628b0725.gif"
 
-  robot.respond /本気$/, (msg) ->
+  robot.respond /いいのか$/, (msg) ->
     msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/0/d/0db6d427.gif"
 
   robot.respond /かます$/, (msg) ->
