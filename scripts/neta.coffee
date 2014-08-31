@@ -32,7 +32,7 @@ module.exports = (robot) ->
   robot.respond /まだ$/, (msg) ->
     msg.send "http://livedoor.blogimg.jp/news4wide/imgs/1/5/15e0b96e-s.jpg?399313"
 
-  robot.respond /夢見させる$/, (msg) ->
+  robot.respond /夢$/, (msg) ->
     msg.send "http://livedoor.blogimg.jp/news4wide/imgs/3/c/3c12a3cc-s.jpg?399634"
 
   robot.respond /悪い予感$/, (msg) ->
@@ -64,5 +64,38 @@ module.exports = (robot) ->
 
   robot.respond /不運$/, (msg) ->
     msg.send "http://livedoor.blogimg.jp/sonisoku/imgs/3/c/3cb24eef.jpg"
+
+  robot.respond /タブー$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120825/13/1153443/13/322x400x0cae962ba07b5bef57baded2.jpg"
+
+  robot.respond /もう十分$/, (msg) ->
+    msg.send "http://d13n9ry8xcpemi.cloudfront.net/photo/odai/400/8c459ebff3a7a3e37747c10cbc8759ae_400.jpg"
+
+  robot.respond /火$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120729/15/1022545/6/640x544xc7ef58dcdf6dd36603ce0055.jpg"
+
+  robot.respond /欲しい$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/62/320x355x77a0adf42a12f335b0e524c8.jpg"
+
+  robot.respond /ふあー$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/23/300x325x47c2f5e4fdd0858cb51e912e.jpg"
+
+  robot.respond /殺$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120825/15/1022545/14/299x441x9fbb0fb0afde641c9dbb8ee0.jpg"
+
+  robot.respond /いつもの$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/20/183x202x05386c35c340d3c395201c8d.jpg"
+
+  robot.respond /古い$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/18/150x226x04b971fa01c597cb75ad6d94.jpg"
+
+  robot.respond /りくつ$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/2/214x214x04dc0980a33b9e4cc48b557b.jpg"
+
+  robot.respond /あほか$/, (msg) ->
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120804/15/1022545/19/240x320xc9757cc0590510d012293dbc.jpg"
+
+  robot.respond /無駄な時間$/, (msg) ->
+    msg.send "http://cdn-ak.f.st-hatena.com/images/fotolife/t/takashi0123/20100507/20100507231438.jpg"
 
 
