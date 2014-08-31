@@ -8,19 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot あきらめたら - get neta
-#   hubot それだ - get neta
-#   hubot まだあわてる時間じゃない - get neta
-#   hubot 夢見させる - get neta
-#   hubot 悪い予感 - get neta
-#   hubot それより - get neta
-#   hubot ？？？ - get neta
-#   hubot 専門外 - get neta
-#   hubot ダメっぽい - get neta
-#   hubot 本題 - get neta
-#   hubot たやすい - get neta
-#   hubot 呼んだ - get neta
-#   hubot 次は - get neta
+#   hubot あきらめたら,それだ,まだ,夢,悪い予感,それより,？？？,専門外,ダメっぽい,本題,たやすい,呼んだ,次は,不運,タブー,もう十分,火,欲しい,ふあー,殺,いつもの,古い,りくつ,あほか,無駄な時間 - get neta
 
 module.exports = (robot) ->
   robot.respond /あきらめたら$/, (msg) ->

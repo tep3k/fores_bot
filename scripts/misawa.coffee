@@ -8,15 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot 俺の分 - get masa meigen
-#   hubot ゲザー - get masa meigen
-#   hubot 申し訳 - get masa meigen
-#   hubot 休む - get masa meigen
-#   hubot 嫌な予感 - get masa meigen
-#   hubot 俺は土下座 - get masa meigen
-#   hubot 本気 - get masa meigen
-#   hubot かます - get masa meigen
-#   hubot 有給 - get masa meigen
+#   hubot 俺の分,ゲザー,申し訳,休む,嫌な予感,俺の土下座,本気,かます,有給 - get masa meigen
 
 module.exports = (robot) ->
   robot.respond /俺の分$/, (msg) ->

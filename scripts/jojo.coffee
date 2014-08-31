@@ -8,39 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot だが - get jojo neta
-#   hubot とうおるる - get jojo neta
-#   hubot パパウ - get jojo neta
-#   hubot cool - get jojo neta
-#   hubot メメタ - get jojo neta
-#   hubot 貧弱 - get jojo neta
-#   hubot やめる - get jojo neta
-#   hubot 泣くまで - get jojo neta
-#   hubot さすが - get jojo neta
-#   hubot やめた - get jojo neta
-#   hubot その通り - get jojo neta
-#   hubot ドグサレ - get jojo neta
-#   hubot 止まれ - get jojo neta
-#   hubot bravo - get jojo neta
-#   hubot ツケ - get jojo neta
-#   hubot グッパオン - get jojo neta
-#   hubot メッセージ - get jojo neta
-#   hubot メギャン - get jojo neta
-#   hubot 見殺し - get jojo neta
-#   hubot オラ無駄 - get jojo neta
-#   hubot ンまああーい - get jojo neta
-#   hubot 平和 - get jojo neta
-#   hubot ド低能 - get jojo neta
-#   hubot vola - get jojo neta
-#   hubot 兄貴 - get jojo neta
-#   hubot 理解した - get jojo neta
-#   hubot di molto - get jojo neta
-#   hubot 根掘り - get jojo neta
-#   hubot arrive - get jojo neta
-#   hubot 祝福 - get jojo neta
-#   hubot 用意 - get jojo neta
-#   hubot 落ち着け - get jojo neta
-#   hubot who are you - get jojo neta
+#   hubot だが,とうおるる,パパウ,cool,メメタ,貧弱,人間をやめる,泣くまで,さすが,やめた,その通り,ドグサレ,止まれ,bravo,ツケ,グッパオン,メッセージ,メギャン,見殺し,オラ無駄,ンまああーい,平和,ド低能,vola,兄貴,理解した,di molto,根堀り,arrive,アリ,祝福,用意,落ち着け,who are you - get jojo neta
 
 module.exports = (robot) ->
   robot.respond /だが$/, (msg) ->
@@ -61,7 +29,7 @@ module.exports = (robot) ->
   robot.respond /貧弱$/, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120710/15/1022545/49/257x326x849652ae0d45097c66e944a3.jpg"
 
-  robot.respond /やめる$/, (msg) ->
+  robot.respond /人間をやめる$/, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120710/15/1022545/45/220x284x98cffe07850629bb5ff4c8f4.jpg"
 
   robot.respond /泣くまで$/, (msg) ->
