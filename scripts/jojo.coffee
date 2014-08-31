@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot だが,とうおるる,パパウ,cool,メメタ,貧弱,人間をやめる,泣くまで,さすが,やめた,その通り,ドグサレ,止まれ,bravo,ツケ,グッパオン,メッセージ,メギャン,見殺し,オラ無駄,ンまああーい,平和,ド低能,vola,兄貴,理解した,di molto,根堀り,arrive,アリ,祝福,用意,落ち着け,who are you - get jojo neta
+#   hubot だが,とうおるる,パパウ,cool,メメタ,貧弱,人間をやめる,泣くまで,さすが,やめた,その通り,ドグサレ,止まれ,bravo,ツケ,グッパオン,メッセージ,メギャン,見殺し,オラ無駄,ンまああーい,平和,ド低能,vola,兄貴,理解した,di molto,根堀り,arrive,アリ,祝福,用意,落ち着け,who are you - get ジョジョ ネタ
 
 module.exports = (robot) ->
   robot.respond /だが$/, (msg) ->
