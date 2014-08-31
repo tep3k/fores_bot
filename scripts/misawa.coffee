@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot 俺の分,ゲザー,申し訳,休む,嫌な予感,俺は土下座,いいのか,かます,有給 - get ミサワ ネタ
+#   hubot 俺の分,ゲザー,申し訳,休む,嫌な予感,俺は土下座,いいのか,かます,有給,まだある - get ミサワ ネタ
 
 module.exports = (robot) ->
   robot.respond /俺の分$/, (msg) ->
@@ -38,3 +38,6 @@ module.exports = (robot) ->
 
   robot.respond /有給$/, (msg) ->
     msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/e/a/ea14c261.gif"
+
+  robot.respond /まだある$/, (msg) ->
+    msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/7/3/73de70ed.gif"
