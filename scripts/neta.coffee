@@ -24,7 +24,7 @@
 
 module.exports = (robot) ->
   robot.respond /あきらめたら$/, (msg) ->
-    msg.send "http://livedoor.4.blogimg.jp/jigokuno_misawa/imgs/6/9/692ab57e.gif"
+    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20130421/54/538664/0/408x304xda3c0d83c868e3e49c31723d.jpg"
 
   robot.respond /それだ$/, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120728/13/1153443/298/695x468x8df28ab959eee002fa062095.jpg"
@@ -61,4 +61,8 @@ module.exports = (robot) ->
 
   robot.respond /次は$/, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120729/15/1022545/59/640x583xe9e13016850307124416e999.jpg"
+
+  robot.respond /不運$/, (msg) ->
+    msg.send "http://livedoor.blogimg.jp/sonisoku/imgs/3/c/3cb24eef.jpg"
+
 

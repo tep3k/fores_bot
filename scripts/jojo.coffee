@@ -128,7 +128,10 @@ module.exports = (robot) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20130206/15/1022545/5/570x572xe1b6afd376973faf79e0c2d5.jpg"
 
   robot.respond /ARRIVE$/i, (msg) ->
-    msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120712/15/1022545/38/185x106x0337fa28dead1478b7b909ce.jpg"
+    msg.send "http://blog-imgs-44-origin.fc2.com/d/a/i/daigorou6/b0021035_15491790.jpg"
+
+  robot.respond /アリ$/i, (msg) ->
+    msg.send "http://blog-imgs-44-origin.fc2.com/d/a/i/daigorou6/b0021035_15491790.jpg"
 
   robot.respond /祝福$/, (msg) ->
     msg.send "http://imgcc.naver.jp/kaze/mission/USER/20120712/15/1022545/52/402x623xaaa8664ed3f5e90ff53d3ab1.jpg"
